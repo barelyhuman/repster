@@ -41,7 +41,7 @@
 
         setArray.forEach(function (item, index) {
             const li = document.createElement('li');
-            li.innerHTML = "Set " + index + ": " + item;
+            li.innerHTML = "Set " + (index + 1) ": " + item;
             setsListContainer.appendChild(li);
         });
 
