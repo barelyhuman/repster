@@ -1,0 +1,45 @@
+.m-0 {
+    margin: 0px;
+  }
+  
+  .p-0 {
+    padding: 0px;
+  }
+  
+  .m-5 {
+    margin: 5px;
+  }
+  
+  .p-5 {
+    padding: 5px;
+  }
+  
+  .m-10 {
+    margin: 10px;
+  }
+  
+  .p-10 {
+    padding: 10px;
+  }
+  
+  .m-15 {
+    margin: 15px;
+  }
+  
+  .p-15 {
+    padding: 15px;
+  }
+
+
+  .button-black {
+    background-color: black;
+    border-color: black;
+  }
+  .button-black.button-clear,
+  .button-black.button-outline {
+    background-color: transparent;
+    color: black;
+  }
+  .button-black.button-clear {
+    border-color: transparent;
+  }
