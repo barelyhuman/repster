@@ -49,7 +49,7 @@
     }
 
     function addTotalToApp(setArray) {
-        const container = document.querySelection('#total-count-container');
+        const container = document.querySelector('#total-count-container');
         const p = document.createElement('p');
         p.id = 'total-count';
         p.innerText = "Total Reps: " + setArray.reduce((acc, item) => acc + item, 0);
