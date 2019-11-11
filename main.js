@@ -60,10 +60,11 @@
     function resetDocument() {
         setsListContainer.innerHTML = '';
 
+        const container = document.querySelector('#total-count-container');
         const totalP = document.querySelector('#total-count');
 
         if (totalP) {
-            appContainer.removeChild(totalP);
+            container.removeChild(totalP);
         }
 
 
