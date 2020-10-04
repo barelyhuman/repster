@@ -47,3 +47,13 @@ body{
   .button-black.button-clear {
     border-color: transparent;
   }
+
+
+  input:focus{
+    border:1px solid black !important;
+  }
+
+  .button-outline{
+    background:white;
+    border:1px solid black;
+  }
