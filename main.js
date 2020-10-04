@@ -27,7 +27,7 @@
     const timerInput = document.getElementById('timer-input')
     const timer = document.getElementById('timer')
     let currentVal = 0
-    const timerValue = timerInput.value
+    const timerValue = parseInt(timerInput.value) + 1
     if (interval) {
       clearInterval(interval)
     }
